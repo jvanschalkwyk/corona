@@ -1,0 +1,20 @@
+Package: corona
+Title: Nanny Corona Data Exploration
+Version: 0.1
+Imports: 
+    ggplot2, 
+    gridExtra,
+    plyr,
+    qicharts2
+Authors@R: 
+    person(given = "Nanny",
+           family = "Corona",
+           role = c("aut", "cre"),
+           email = "jvanschalkwyk@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: A simple package for playing with coronavirus data at a very basic level.
+License:  `use_gpl3_license()` 
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
