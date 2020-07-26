@@ -3,7 +3,7 @@
 \docType{data}
 \name{owid}
 \alias{owid}
-\title{Wide-ranging data from Our World In Data. I only use a slight fraction.}
+\title{Wide-ranging data from Our World In Data. I only use a tiny part.}
 \format{
 A data frame with 17,013 rows (current)
 \describe{
@@ -44,6 +44,6 @@ A data frame with 17,013 rows (current)
 owid
 }
 \description{
-Wide-ranging data from Our World In Data. I only use a slight fraction.
+Wide-ranging data from Our World In Data. I only use a tiny part.
 }
 \keyword{datasets}

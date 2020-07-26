@@ -4,15 +4,29 @@
 \alias{corona_lockdown}
 \title{Draw multiple smoothed graphs of new daily cases, with lockdown date, if present}
 \usage{
-corona_lockdown(pdf = FALSE, minpeople = 4e+06, mincases = 200, cols = 5)
+corona_lockdown(
+  pdf = FALSE,
+  minpeople = 4e+06,
+  mincases = 200,
+  cols = 7,
+  striptextsize = 22,
+  legendx = 0.86,
+  legendy = 0.03
+)
 }
 \arguments{
+\item{minpeople}{Minimum population for the country}
+
+\item{mincases}{Minimum number of COVID-19 cases}
+
+\item{cols}{Number of columns to display, default = 7}
+
+\item{striptextsize}{size of text in country names}
+
 \item{pdf=FALSE}{By default will not print to PDF}
 }
 \description{
-This requires the data frames lock and owid, as well as ggplot and plyr (ddply) libraries.
-At present limited to countries with population > 4M,
-and over 200 cases.
+By default limited to countries with population > 4M, and over 200 cases.
 }
 \examples{
 corona_lockdown( cols=14 ) 

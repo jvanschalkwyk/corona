@@ -2,8 +2,7 @@
 % Please edit documentation in R/dowjones.R
 \name{corona_dowjones}
 \alias{corona_dowjones}
-\title{Plot Dow-Jones Closing data.
-Assumes the existence of the data frame djia, part of corona data.}
+\title{Plot Dow-Jones Closing data}
 \usage{
 corona_dowjones(pdf = FALSE)
 }
@@ -11,7 +10,6 @@ corona_dowjones(pdf = FALSE)
 \item{pdf=FALSE}{will not print to PDF}
 }
 \description{
-Plot Dow-Jones Closing data.
 Assumes the existence of the data frame djia, part of corona data.
 }
 \examples{

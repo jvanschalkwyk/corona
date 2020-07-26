@@ -2,10 +2,7 @@
 % Please edit documentation in R/boot_nanny.R
 \name{corona}
 \alias{corona}
-\title{Basic setup of corona (Nanny Covid) R program:
-On loading corona loads ggplot2, gridExtra, plyr, qicharts
-Use corona(dir='foo') to set the working directory to 'foo'
-or just use setwd() as usual.}
+\title{Basic setup of corona (Nanny Rona) R program}
 \usage{
 corona(dir = "C:/nc")
 }
@@ -13,8 +10,7 @@ corona(dir = "C:/nc")
 \item{dir}{'C:/nc' is default directory, a nasty Windows hack :(}
 }
 \description{
-Basic setup of corona (Nanny Covid) R program:
-On loading corona loads ggplot2, gridExtra, plyr, qicharts
+On loading, corona also loads ggplot2, gridExtra, plyr, qicharts2
 Use corona(dir='foo') to set the working directory to 'foo'
 or just use setwd() as usual.
 }
@@ -23,17 +19,20 @@ corona( dir='C:/foo/bar' )
 
 You can then invoke the built-in functions like:
     corona_rabbits ( )
-    
+    corona_monty ( )
+    corona_life ( ) 
     corona_country ('France') 
-    corona_dowjones ( )
     corona_lockdown ( ) 
     corona_vienna ( ) 
     corona_totals ( ) 
-    corona_alldeaths ( ) 
+    country_dead ( ) 
+    corona_converge ( )
+    corona_metabolism ( ) 
     corona_citymap ( ) 
+    corona_dowjones ( )
 
 Each of these has associated help e.g. ?corona_vienna 
 }
-\keyword{Covid}
 \keyword{Nanny}
+\keyword{Rona}
 \keyword{corona}

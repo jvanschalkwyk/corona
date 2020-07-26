@@ -2,19 +2,18 @@
 % Please edit documentation in R/boot_nanny.R
 \name{corona_all}
 \alias{corona_all}
-\title{Generate all Figures in the book 'I Nanny Rona' (printing to PDF)
-Work through and generate PDFs for all examples.}
+\title{Generate all Figures}
 \usage{
 corona_all()
 }
 \description{
-Generate all Figures in the book 'I Nanny Rona' (printing to PDF)
-Work through and generate PDFs for all examples.
+For the book 'I Nanny Rona' (printing to PDF)
+work through and generate PDFs for all examples.
 }
-\keyword{Covid}
 \keyword{Figures}
 \keyword{Nanny}
 \keyword{PDF}
+\keyword{Rona}
 \keyword{book}
 \keyword{corona}
 \keyword{print}

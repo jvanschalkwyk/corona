@@ -2,7 +2,7 @@
 % Please edit documentation in R/citymapper.R
 \name{corona_citymap}
 \alias{corona_citymap}
-\title{Plot citymapper data against COVID-19 diagnoses, over time.}
+\title{Plot citymapper data against COVID-19 diagnoses, over time}
 \usage{
 corona_citymap(pdf = FALSE, FewCities = NULL, cols = 4)
 }

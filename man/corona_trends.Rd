@@ -2,9 +2,7 @@
 % Please edit documentation in R/googletrends.R
 \name{corona_trends}
 \alias{corona_trends}
-\title{Plot Google Trends data for searches involving the word 'coronavirus'.
-Just plot the lines.
-Requires the CSV GoogleTrendsWorldCoronavirus.csv as the object gt}
+\title{Plot Google Trends data for searches involving the word 'coronavirus'.}
 \usage{
 corona_trends(pdf = FALSE)
 }
@@ -12,7 +10,6 @@ corona_trends(pdf = FALSE)
 \item{pdf=FALSE}{will \emph{not} print thePDF file}
 }
 \description{
-Plot Google Trends data for searches involving the word 'coronavirus'.
 Just plot the lines.
 Requires the CSV GoogleTrendsWorldCoronavirus.csv as the object gt
 }

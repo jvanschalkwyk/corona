@@ -2,10 +2,7 @@
 % Please edit documentation in R/semmelweis.R
 \name{corona_vienna}
 \alias{corona_vienna}
-\title{Plot Semmelweis' original data from Vienna.
-First simply 'plots the dots';
-subsequently draws a run chart with a transition at the point where
-he instituted handwashing.}
+\title{Plot Semmelweis' original data from Vienna.}
 \usage{
 corona_vienna(pdf = FALSE)
 }
@@ -17,7 +14,6 @@ semmelweis_plot.pdf
 semmelweis_run.pdf}
 }
 \description{
-Plot Semmelweis' original data from Vienna.
 First simply 'plots the dots';
 subsequently draws a run chart with a transition at the point where
 he instituted handwashing.

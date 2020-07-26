@@ -2,29 +2,44 @@
 % Please edit documentation in R/conway.R
 \name{corona_life}
 \alias{corona_life}
-\title{Animate Conway's Game of Life
-Depends on gganimate, reshape2}
+\title{Animate Conway's Game of Life}
 \usage{
-corona_life(filename = "default.gif", side = 50, steps = 100, density = 0.3)
+corona_life(
+  filename = NULL,
+  side = 50,
+  steps = 100,
+  density = 0.3,
+  pattern = "random",
+  wrap = TRUE
+)
 }
 \arguments{
+\item{filename}{writes to this file name e.g. foo.gif (NULL for current GIF device)}
+
 \item{side}{The number of elements on the area's side (width or height)}
 
 \item{steps}{The number of frames}
 
 \item{density}{0.0--1 The density of the initial, random items}
 
-\item{filename=foo.gif}{writes to this file name (NULL for current GIF device)}
+\item{pattern}{Defaults to 'random' but there are many other well-known options:
+blinker block beehive ttetromino rpentomino snake eater toad
+beacon clock pulsar pentadecathlon galaxy spaceship
+glidergun piheptomino switchengine}
 }
 \description{
-Animate Conway's Game of Life
-Depends on gganimate, reshape2
+The canvas (arena) wraps around vertically and horizontally!
 }
 \examples{
 corona_life ( filename='animation.gif', side=50, steps=500, density=0.2 ) 
+corona_life ( side=100, steps=1000, pattern='rpentomino', wrap=FALSE ) 
+corona_life ( side=30, steps=120, pattern='spaceship' ) 
+corona_life ( side=100, steps=400, pattern='switchengine' ) 
+corona_life ( side=20, steps=30, pattern='clock' ) 
+corona_life ( side=20, steps=30, pattern='galaxy' ) 
 }
+\keyword{Conway}
 \keyword{animation}
-\keyword{conway}
 \keyword{corona}
 \keyword{frames}
 \keyword{game}

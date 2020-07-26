@@ -2,23 +2,21 @@
 % Please edit documentation in R/country.R
 \name{corona_country}
 \alias{corona_country}
-\title{Plot time course of coronavirus case incidence and deaths for one country.}
+\title{Plot time course of coronavirus case incidence and deaths for one country}
 \usage{
-corona_country(cntry, pdf = FALSE)
+corona_country(cntry, pdf = FALSE, smooth = TRUE, deaths = TRUE)
 }
 \arguments{
 \item{cntry}{: no default}
 
 \item{pdf}{: defaults to FALSE. If TRUE, writes to country_name_new.pdf
-where '\emph{new.pdf' is appended to formal country name.
+i.e. '\emph{new.pdf' is appended to formal country name.
 If the country name contains spaces ' ' they are changed to underscores '}'}
 }
 \description{
-Requires ggplot2.
 The daily case rate is also shown as a smoothed curve.
 The smoothed death incidence is MULTIPLIED x5 to highlight
 its relationship to the incidence curve. See grown-up documentation (LyX)
-ASSUMES that owid data set is loaded.
 }
 \examples{
 corona_country('United States', pdf=FALSE); 
