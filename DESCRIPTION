@@ -11,7 +11,7 @@ Authors@R:
            family = "Corona",
            role = c("aut", "cre"),
            email = "jvanschalkwyk@gmail.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           comment = c(ORCID = "0000-0002-0082-5243"))
 Description: A simple package for playing with coronavirus data at a very basic level.
 License:  `use_gpl3_license()` 
 Encoding: UTF-8

@@ -4,10 +4,10 @@
 \alias{corona_country}
 \title{Plot time course of coronavirus case incidence and deaths for one country}
 \usage{
-corona_country(cntry, pdf = FALSE, smooth = TRUE, deaths = TRUE)
+corona_country(country, pdf = FALSE, smooth = TRUE, deaths = TRUE)
 }
 \arguments{
-\item{cntry}{: no default}
+\item{country}{: no default}
 
 \item{pdf}{: defaults to FALSE. If TRUE, writes to country_name_new.pdf
 i.e. '\emph{new.pdf' is appended to formal country name.

@@ -4,29 +4,20 @@
 \alias{country_dead}
 \title{Plot country deaths by week, with various adjustments:}
 \usage{
-country_dead(
-  cc = "GBRTENW",
-  pdf = FALSE,
-  summerstart = 6,
-  summerend = 8,
-  save = FALSE
-)
+country_dead(country = "England+Wales", pdf = FALSE, save = FALSE)
 }
 \arguments{
-\item{summerstart, }{summerend (which months, e.g. 6=June)}
-
 \item{save}{Do we save the data as a CSV}
 
 \item{pdf=FALSE}{will not print to PDF}
 }
 \description{
-Assumes the existence of the data frame ccdead where cc is one of AUT, BEL, BGR, CHE, CZE, DEUTNP, DNK, ESP,
-EST, FIN, FRATNP, GBRTENW, GBR_SCO, HUN, ISL, ITA, LTU, LUX, NLD, NOR, PRT, SVK, SWE, or USA.
-The unusual codes DEUTNP, FRATNP, GBRTENW, and GBR_SCO represent Germany, France, England+Wales and Scotland.
-The default is GBRTENW, for reasons evident in the book.
+Assumes the existence of the data frame stmf where iso_code is one of AUT, BEL, BGR, CHE, CZE, DEU, DNK, ESP,
+EST, FIN, FRA, GBRTENW, GBR_SCO, HUN, ISL, ITA, LTU, LUX, NLD, NOR, PRT, SVK, SWE, or USA.
+The unusual codes GBRTENW and GBR_SCO represent England+Wales and Scotland.
 }
 \details{
-The columns in the frame stmf are just 'PopCode', 'Year', 'Week', and 'Deaths'.
+The columns in the frame stmf are just 'iso_code', 'Year', 'Week', and 'Deaths'.
 
 Draws three graphs:
 \enumerate{
@@ -38,7 +29,7 @@ secular adjustment.
 }
 \examples{
 country_dead( pdf=TRUE ) 
-country_dead( cc='NZL', summerstart=12, summerend=2 ) 
+country_dead( 'New Zealand' ) 
 }
 \keyword{corona}
 \keyword{deaths}

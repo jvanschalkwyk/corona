@@ -8,33 +8,15 @@
 A data frame with 17,013 rows (current)
 \describe{
 \item{iso_code}{ISO 3-letter country code}
-\item{location}{Text name of country}
+\item{date}{Date for this row of data}
 \item{total_cases}{total cases to date}
 \item{new_cases}{new cases}
 \item{total_deaths}{eponymous}
 \item{new_deaths}{}
-\item{total_cases_per_million}{Derived}
-\item{new_cases_per_million}{}
-\item{total_deaths_per_million}{}
-\item{new_deaths_per_million}{}
 \item{total_tests}{Recorded tests in toto}
-\item{new_tests}{The following are all eponymous}
-\item{total_tests_per_thousand}{}
-\item{new_tests_per_thousand}{}
+\item{new_tests}{Eponymous}
 \item{tests_units}{}
-\item{population}{}
-\item{population_density}{}
-\item{median_age}{}
-\item{aged_65_older}{}
-\item{aged_70_older}{}
-\item{gdp_per_capita}{}
-\item{extreme_poverty}{}
-\item{cvd_death_rate}{}
-\item{diabetes_prealence}{}
-\item{female_smokers}{}
-\item{male_smokers}{}
-\item{handwashing_facilities}{}
-\item{hospital_beds_per_100k}{}
+\item{stringency_index}{How severe the lockdown was}
 }
 }
 \source{

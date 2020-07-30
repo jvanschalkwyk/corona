@@ -16,6 +16,7 @@ A data frame with 108 rows.
 "South.Korea"    "Spain"    "Sweden"   "Turkey"
 "United.Kingdom" "United.States" }
 }
+}
 \source{
 \url{https://citymapper.com/cmi/about}
 }

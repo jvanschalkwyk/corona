@@ -10,8 +10,8 @@ corona_lockdown(
   mincases = 200,
   cols = 7,
   striptextsize = 22,
-  legendx = 0.86,
-  legendy = 0.03
+  legendx = 0.94,
+  legendy = 0.02
 )
 }
 \arguments{
