@@ -5,11 +5,11 @@
 \alias{life}
 \title{The game of life.}
 \format{
-A data frame with 190 rows.
+A data frame with 213 rows.
 \describe{
 \item{x}{x co-ordinate of an active cell}
 \item{y}{y co-ordinate}
-\item{pattern}{A name like 'blinker' --- will be common to several rows, thereby specifying a Game of Life pattern }
+\item{pattern}{A name like 'blinker' --- will be common to several rows, specifying a Game of Life pattern }
 }
 }
 \source{
@@ -19,6 +19,6 @@ A data frame with 190 rows.
 life
 }
 \description{
-This specifies initial conditions, using a somewhat obscure and clumsy storage format.
+This specifies initial conditions, using a clumsy storage format as below.
 }
 \keyword{datasets}

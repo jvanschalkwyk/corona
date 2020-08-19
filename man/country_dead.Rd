@@ -12,8 +12,7 @@ country_dead(country = "England+Wales", pdf = FALSE, save = FALSE)
 \item{pdf=FALSE}{will not print to PDF}
 }
 \description{
-Assumes the existence of the data frame stmf where iso_code is one of AUT, BEL, BGR, CHE, CZE, DEU, DNK, ESP,
-EST, FIN, FRA, GBRTENW, GBR_SCO, HUN, ISL, ITA, LTU, LUX, NLD, NOR, PRT, SVK, SWE, or USA.
+Assumes the existence of the data frame stmf containing relevant iso_codes for countries.
 The unusual codes GBRTENW and GBR_SCO represent England+Wales and Scotland.
 }
 \details{
@@ -30,6 +29,7 @@ secular adjustment.
 \examples{
 country_dead( pdf=TRUE ) 
 country_dead( 'New Zealand' ) 
+country_dead( '?' )
 }
 \keyword{corona}
 \keyword{deaths}

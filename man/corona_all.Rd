@@ -7,7 +7,7 @@
 corona_all()
 }
 \description{
-For the book 'I Nanny Rona' (printing to PDF)
+For the book 'Rona' (printing to PDF)
 work through and generate PDFs for all examples.
 }
 \keyword{Figures}

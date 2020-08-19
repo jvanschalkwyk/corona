@@ -10,7 +10,7 @@ corona(dir = "C:/nc")
 \item{dir}{'C:/nc' is default directory, a nasty Windows hack :(}
 }
 \description{
-On loading, corona also loads ggplot2, gridExtra, plyr, qicharts2
+On loading, corona also loads gganimate, ggplot2, gridExtra, plyr, qicharts2, reshape2
 Use corona(dir='foo') to set the working directory to 'foo'
 or just use setwd() as usual.
 }
@@ -22,7 +22,7 @@ You can then invoke the built-in functions like:
     corona_monty ( )
     corona_life ( ) 
     corona_country ('France') 
-    corona_lockdown ( ) 
+    corona_lockdown ( cols=14 ) 
     corona_vienna ( ) 
     corona_totals ( ) 
     country_dead ( ) 

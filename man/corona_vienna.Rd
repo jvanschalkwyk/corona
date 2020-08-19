@@ -16,7 +16,7 @@ semmelweis_run.pdf}
 \description{
 First simply 'plots the dots';
 subsequently draws a run chart with a transition at the point where
-he instituted handwashing.
+he instituted hand-washing.
 }
 \examples{
 corona_vienna ( pdf=TRUE ) 

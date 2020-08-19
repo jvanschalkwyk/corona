@@ -5,27 +5,30 @@
 \title{Animate Conway's Game of Life}
 \usage{
 corona_life(
-  filename = NULL,
+  pattern = "soup",
   side = 50,
   steps = 100,
   density = 0.3,
-  pattern = "random",
-  wrap = TRUE
+  filename = NULL,
+  wrap = TRUE,
+  fps = 20,
+  pause = 10
 )
 }
 \arguments{
-\item{filename}{writes to this file name e.g. foo.gif (NULL for current GIF device)}
+\item{pattern}{Defaults to 'soup' but there are many other well-known options:
+blinker ttetromino rpentomino toad beehive
+beacon clock pulsar pentadecathlon galaxy spaceship
+glidergun piheptomino switchengine conway acorn rabbits
+boring static patterns: block snake eater}
 
 \item{side}{The number of elements on the area's side (width or height)}
 
 \item{steps}{The number of frames}
 
-\item{density}{0.0--1 The density of the initial, random items}
+\item{density}{0.0--1 The density of the initial, random items ('soup')}
 
-\item{pattern}{Defaults to 'random' but there are many other well-known options:
-blinker block beehive ttetromino rpentomino snake eater toad
-beacon clock pulsar pentadecathlon galaxy spaceship
-glidergun piheptomino switchengine}
+\item{filename}{writes to this file name e.g. foo.gif (NULL for current GIF device)}
 }
 \description{
 The canvas (arena) wraps around vertically and horizontally!
@@ -37,6 +40,8 @@ corona_life ( side=30, steps=120, pattern='spaceship' )
 corona_life ( side=100, steps=400, pattern='switchengine' ) 
 corona_life ( side=20, steps=30, pattern='clock' ) 
 corona_life ( side=20, steps=30, pattern='galaxy' ) 
+corona_life ( side=100, steps=200, pattern='glidergun' ) 
+corona_life ( side=45, steps=130, pattern='conway', fps=8, pause=40)
 }
 \keyword{Conway}
 \keyword{animation}

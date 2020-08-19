@@ -9,7 +9,8 @@ corona_lockdown(
   minpeople = 4e+06,
   mincases = 200,
   cols = 7,
-  striptextsize = 22,
+  striptextsize = 10,
+  textsize = 10,
   legendx = 0.94,
   legendy = 0.02
 )

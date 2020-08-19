@@ -7,7 +7,7 @@
 \format{
 A data frame with 22678 rows.
 \describe{
-\item{iso_code}{Normally a 3-character country code e.g. NZL, AUT. England+Wales=GBRTENW, Scotland=GBR_SCO, Germany=DEUTNP, France=FRATNP}
+\item{iso_code}{Normally a 3-character country code e.g. NZL, AUT. England+Wales=GBRTENW, Scotland=GBR_SCO}
 \item{Year}{YYYY}
 \item{Week}{Week within that year, 1=1st}
 \item{Deaths}{Number of deaths in that week}

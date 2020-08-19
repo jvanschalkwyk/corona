@@ -1,14 +1,16 @@
 Package: corona
-Title: Nanny Corona Data Exploration
-Version: 0.1
+Title: Nanny Rona Data Exploration
+Version: 0.2
 Imports: 
+    gganimate,
     ggplot2, 
     gridExtra,
     plyr,
-    qicharts2
+    qicharts2,
+    reshape2
 Authors@R: 
     person(given = "Nanny",
-           family = "Corona",
+           family = "Rona",
            role = c("aut", "cre"),
            email = "jvanschalkwyk@gmail.com",
            comment = c(ORCID = "0000-0002-0082-5243"))

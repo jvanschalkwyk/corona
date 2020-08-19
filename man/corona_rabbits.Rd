@@ -12,7 +12,7 @@ corona_rabbits(topyear = 6, pdf = FALSE)
 \item{pdf}{Will not print to PDF if FALSE (the default)}
 }
 \description{
-For finer details, see the LyX documentation.
+For finer details, see the LyX/PDF documentation.
 }
 \examples{
 corona_rabbits( topyear=8, pdf=TRUE ) 

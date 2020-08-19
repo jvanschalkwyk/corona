@@ -28,7 +28,7 @@ corona_converge(
 \item{bins}{defaults to 64}
 }
 \description{
-We effectively build a normal distribution or a log-normal one from simple components.
+We build a normal or log-normal distribution from simple components.
 }
 \examples{
 corona_converge( n=100000, pdf=TRUE ) 
