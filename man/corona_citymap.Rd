@@ -12,7 +12,7 @@ corona_citymap(pdf = FALSE, FewCities = NULL, cols = 4)
 \item{cols}{Number of columns in output, default is 4}
 }
 \description{
-Requires ggplot2, plyr and the data frames lock, owid, citymap
+Requires ggplot2, plyr and the data frames lock, owid, citymap.
 Multiple, select frames are plotted.
 }
 \examples{

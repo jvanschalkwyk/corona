@@ -20,7 +20,6 @@ corona( dir='C:/foo/bar' )
 You can then invoke the built-in functions like:
     corona_rabbits ( )
     corona_monty ( )
-    corona_life ( ) 
     corona_country ('France') 
     corona_lockdown ( cols=14 ) 
     corona_vienna ( ) 
@@ -28,6 +27,7 @@ You can then invoke the built-in functions like:
     country_dead ( ) 
     corona_converge ( )
     corona_metabolism ( ) 
+    corona_life ( ) 
     corona_citymap ( ) 
     corona_dowjones ( )
 
