@@ -5,7 +5,7 @@
 \title{Create various statistical distributions}
 \usage{
 corona_converge(
-  n = 1e+06,
+  n = 1e+05,
   method = "add",
   runs = 7,
   pdf = FALSE,
@@ -26,13 +26,17 @@ corona_converge(
 \item{xscale}{a scaling factor, can use values < 1.0 to magnify (x) e.g. 0.4}
 
 \item{bins}{defaults to 64}
+
+\item{log}{take logarithm of values (for 'multiply')}
 }
 \description{
 We build a normal or log-normal distribution from simple components.
 }
 \examples{
-corona_converge( n=100000, pdf=TRUE ) 
-corona_converge( n=100000, method='multiply', xscale=0.4, bins=128, runs=10 )
+\dontrun{
+corona_converge( n=1000000, method='add' ) 
+}
+corona_converge( n=10000, method='multiply', xscale=0.4, bins=128, runs=5 )
 }
 \keyword{Benford}
 \keyword{central}

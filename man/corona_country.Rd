@@ -12,6 +12,10 @@ corona_country(country, pdf = FALSE, smooth = TRUE, deaths = TRUE)
 \item{pdf}{: defaults to FALSE. If TRUE, writes to country_name_new.pdf
 i.e. '\emph{new.pdf' is appended to formal country name.
 If the country name contains spaces ' ' they are changed to underscores '}'}
+
+\item{smooth}{: default TRUE show smoothed (red) curve}
+
+\item{deaths}{: default TRUE show deaths}
 }
 \description{
 The daily case rate is also shown as a smoothed curve.
@@ -19,9 +23,11 @@ The smoothed death incidence is MULTIPLIED x5 to highlight
 its relationship to the incidence curve. See grown-up documentation (LyX)
 }
 \examples{
-corona_country('United States', pdf=FALSE); 
+corona_country('United States'); 
+corona_country('Taiwan'); 
+\dontrun{
 corona_country('United States', pdf=TRUE); 
-corona_country('Taiwan', pdf=TRUE); 
+}
 }
 \keyword{corona}
 \keyword{country}

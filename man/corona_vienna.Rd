@@ -7,9 +7,7 @@
 corona_vienna(pdf = FALSE)
 }
 \arguments{
-\item{topyear}{is last year, defaults to 6}
-
-\item{pdf=FALSE}{will \emph{not} print the two PDF files:
+\item{pdf}{default FALSE will \emph{not} print the two PDF files:
 semmelweis_plot.pdf
 semmelweis_run.pdf}
 }
@@ -19,7 +17,10 @@ subsequently draws a run chart with a transition at the point where
 he instituted hand-washing.
 }
 \examples{
+\dontrun{
 corona_vienna ( pdf=TRUE ) 
 }
+}
+\keyword{Semmelweis}
+\keyword{Vienna}
 \keyword{corona}
-\keyword{rabbits}

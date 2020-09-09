@@ -1,21 +1,17 @@
 Package: corona
-Title: Nanny Rona Data Exploration
-Version: 0.2
-Imports: 
-    gganimate,
-    ggplot2, 
-    gridExtra,
-    plyr,
-    qicharts2,
-    reshape2
+Title: Coronavirus ('Rona') Data Exploration
+Version: 0.2.0
+Depends: R (>= 3.5.0), plyr 
+Imports: gganimate, ggplot2, gridExtra, qicharts2, reshape2
 Authors@R: 
-    person(given = "Nanny",
-           family = "Rona",
+    person(given = "Jo",
+           family = "van Schalkwyk",
            role = c("aut", "cre"),
            email = "jvanschalkwyk@gmail.com",
            comment = c(ORCID = "0000-0002-0082-5243"))
-Description: A simple package for playing with coronavirus data at a very basic level.
-License:  `use_gpl3_license()` 
+Maintainer: Jo van Schalkwyk <jvanschalkwyk@gmail.com> 
+Description: Manipulate and view coronavirus data and other societally relevant data at a basic level.
+License:  GPL-3 
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

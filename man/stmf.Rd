@@ -11,6 +11,7 @@ A data frame with 22678 rows.
 \item{Year}{YYYY}
 \item{Week}{Week within that year, 1=1st}
 \item{Deaths}{Number of deaths in that week}
+\item{X}{}
 }
 }
 \source{

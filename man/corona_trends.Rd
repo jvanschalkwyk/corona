@@ -7,14 +7,13 @@
 corona_trends(pdf = FALSE)
 }
 \arguments{
-\item{pdf=FALSE}{will \emph{not} print thePDF file}
+\item{pdf}{default FALSE will \emph{not} print the PDF file}
 }
 \description{
 Just plot the lines.
-Requires the CSV GoogleTrendsWorldCoronavirus.csv as the object gt
 }
 \examples{
-corona_trends ( pdf=TRUE ) 
+corona_trends ( ) 
 }
 \keyword{Google}
 \keyword{Trends}

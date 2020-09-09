@@ -7,14 +7,28 @@
 \format{
 A data frame with 108 rows.
 \describe{
-\item{Date}{A column of dates in format YYYY-MM-DD}
-\item{Country column names}{ Multiple country names, currently
-"Australia"      "Austria"  "Belgium"  "Brazil"
-"Canada"         "Date"     "Denmark"  "France"
-"Germany"        "Italy"    "Japan"    "Mexico"
-"Netherlands"    "Portugal" "Russia"   "Singapore"
-"South.Korea"    "Spain"    "Sweden"   "Turkey"
-"United.Kingdom" "United.States" }
+\item{Date}{}
+\item{Australia}{}
+\item{Austria}{}
+\item{Belgium}{}
+\item{Brazil}{}
+\item{Canada}{}
+\item{Denmark}{}
+\item{France}{}
+\item{Germany}{}
+\item{Italy}{}
+\item{Japan}{}
+\item{Mexico}{}
+\item{Netherlands}{}
+\item{Portugal}{}
+\item{Russia}{}
+\item{Singapore}{}
+\item{South.Korea}{}
+\item{Spain}{}
+\item{Sweden}{}
+\item{Turkey}{}
+\item{United.Kingdom}{}
+\item{United.States}{}
 }
 }
 \source{

@@ -7,13 +7,15 @@
 corona_metabolism(pdf = FALSE, base = 10)
 }
 \arguments{
-\item{pdf=FALSE}{will not print to PDF}
+\item{pdf}{will not print to PDF}
+
+\item{base}{base for logarithms, default 10}
 }
 \description{
 Log-log plot of mammalian weights (grams) against metabolic rates. The PDF file is allometry.pdf.
 }
 \examples{
-corona_metabolism ( pdf=TRUE ) 
+corona_metabolism ( ) 
 }
 \keyword{Kleiber}
 \keyword{allometric}

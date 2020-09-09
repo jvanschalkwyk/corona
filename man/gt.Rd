@@ -8,11 +8,12 @@
 A data frame with 155 rows (current)
 \describe{
 \item{Date}{Date in format YYYY-MM-DD}
+\item{Day}{}
 \item{coronavirus}{Coronavirus 'interest' as percentage of maximum count }
 }
 }
 \source{
-\url{https://trends.google.com/trends/explore?date=2020-01-01\%202020-06-06&q=coronavirus}
+\url{https://trends.google.com/trends/}
 }
 \usage{
 gt

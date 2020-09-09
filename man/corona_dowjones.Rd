@@ -7,13 +7,13 @@
 corona_dowjones(pdf = FALSE)
 }
 \arguments{
-\item{pdf=FALSE}{will not print to PDF}
+\item{pdf}{: will not print to PDF}
 }
 \description{
 Assumes the existence of the data frame djia, part of corona data.
 }
 \examples{
-corona_dowjones ( pdf=TRUE ) 
+corona_dowjones ( ) 
 }
 \keyword{average}
 \keyword{corona}

@@ -10,6 +10,7 @@ A data frame with 17,013 rows (current)
 \item{iso_code}{ISO 3-letter country code}
 \item{location}{Text name of country}
 \item{population}{}
+\item{continent}{}
 \item{population_density}{}
 \item{median_age}{}
 \item{aged_65_older}{}
@@ -17,11 +18,11 @@ A data frame with 17,013 rows (current)
 \item{gdp_per_capita}{}
 \item{extreme_poverty}{}
 \item{cvd_death_rate}{}
-\item{diabetes_prealence}{}
+\item{diabetes_prevalence}{}
 \item{female_smokers}{}
 \item{male_smokers}{}
 \item{handwashing_facilities}{}
-\item{hospital_beds_per_100k}{}
+\item{hospital_beds_per_thousand}{}
 \item{life_expectancy}{}
 \item{alias}{Alias country name, shorter}
 \item{lowstart}{Start of 'summer' viral respiratory low}

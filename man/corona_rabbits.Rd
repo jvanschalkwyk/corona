@@ -15,7 +15,7 @@ corona_rabbits(topyear = 6, pdf = FALSE)
 For finer details, see the LyX/PDF documentation.
 }
 \examples{
-corona_rabbits( topyear=8, pdf=TRUE ) 
+corona_rabbits( topyear=10) 
 }
 \keyword{corona}
 \keyword{rabbits}

@@ -7,7 +7,7 @@
 \format{
 A data frame with 110 rows (current)
 \describe{
-\item{location}{Text name of country}
+\item{iso_code}{Country}
 \item{Lockdown}{Date of lockdown YYYY-MM-DD}
 \item{nature}{Text description: national | partial | advice | empty(none) }
 }

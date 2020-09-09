@@ -7,9 +7,11 @@
 country_dead(country = "England+Wales", pdf = FALSE, save = FALSE)
 }
 \arguments{
-\item{save}{Do we save the data as a CSV}
+\item{country}{Country name}
 
-\item{pdf=FALSE}{will not print to PDF}
+\item{pdf}{default FALSE will not print to PDF}
+
+\item{save}{Do we save the data as a CSV}
 }
 \description{
 Assumes the existence of the data frame stmf containing relevant iso_codes for countries.
@@ -27,9 +29,10 @@ secular adjustment.
 }
 }
 \examples{
-country_dead( pdf=TRUE ) 
 country_dead( 'New Zealand' ) 
+\dontrun{
 country_dead( '?' )
+}
 }
 \keyword{corona}
 \keyword{deaths}

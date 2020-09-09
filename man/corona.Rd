@@ -7,17 +7,16 @@
 corona(dir = "C:/nc")
 }
 \arguments{
-\item{dir}{'C:/nc' is default directory, a nasty Windows hack :(}
+\item{dir}{'C:/nc' is default MS Windows directory; on Linux or Mac, is '~/nc'}
 }
 \description{
+Try ?corona for help. For most functions, saying pdf=TRUE will write PDF to images/.
 On loading, corona also loads gganimate, ggplot2, gridExtra, plyr, qicharts2, reshape2
 Use corona(dir='foo') to set the working directory to 'foo'
 or just use setwd() as usual.
 }
 \examples{
-corona( dir='C:/foo/bar' ) 
-
-You can then invoke the built-in functions like:
+\dontrun{
     corona_rabbits ( )
     corona_monty ( )
     corona_country ('France') 
@@ -30,8 +29,8 @@ You can then invoke the built-in functions like:
     corona_life ( ) 
     corona_citymap ( ) 
     corona_dowjones ( )
+}
 
-Each of these has associated help e.g. ?corona_vienna 
 }
 \keyword{Nanny}
 \keyword{Rona}

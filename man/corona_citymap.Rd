@@ -9,6 +9,8 @@ corona_citymap(pdf = FALSE, FewCities = NULL, cols = 4)
 \arguments{
 \item{pdf}{= TRUE writes to PDF, default FALSE}
 
+\item{FewCities}{a c() list of city names from the city options. Default is all.}
+
 \item{cols}{Number of columns in output, default is 4}
 }
 \description{
@@ -16,7 +18,8 @@ Requires ggplot2, plyr and the data frames lock, owid, citymap.
 Multiple, select frames are plotted.
 }
 \examples{
-corona_citymap(pdf=TRUE, cols=4); 
+corona_citymap(cols=4); 
+
 }
 \keyword{citymap}
 \keyword{citymapper}

@@ -16,6 +16,8 @@ corona_lockdown(
 )
 }
 \arguments{
+\item{pdf}{print to PDF}
+
 \item{minpeople}{Minimum population for the country}
 
 \item{mincases}{Minimum number of COVID-19 cases}
@@ -24,14 +26,20 @@ corona_lockdown(
 
 \item{striptextsize}{size of text in country names}
 
-\item{pdf=FALSE}{By default will not print to PDF}
+\item{textsize}{Size of text header}
+
+\item{legendx}{X position of legend}
+
+\item{legendy}{Y position of legend}
 }
 \description{
 By default limited to countries with population > 4M, and over 200 cases.
 }
 \examples{
 corona_lockdown( cols=14 ) 
+\dontrun{
 corona_lockdown( pdf=TRUE ) 
+}
 }
 \keyword{corona}
 \keyword{lockdown}

@@ -29,19 +29,27 @@ boring static patterns: block snake eater}
 \item{density}{0.0--1 The density of the initial, random items ('soup')}
 
 \item{filename}{writes to this file name e.g. foo.gif (NULL for current GIF device)}
+
+\item{wrap}{Wrap around}
+
+\item{fps}{Frames per second}
+
+\item{pause}{Initial pause}
 }
 \description{
 The canvas (arena) wraps around vertically and horizontally!
 }
 \examples{
-corona_life ( filename='animation.gif', side=50, steps=500, density=0.2 ) 
-corona_life ( side=100, steps=1000, pattern='rpentomino', wrap=FALSE ) 
-corona_life ( side=30, steps=120, pattern='spaceship' ) 
-corona_life ( side=100, steps=400, pattern='switchengine' ) 
-corona_life ( side=20, steps=30, pattern='clock' ) 
-corona_life ( side=20, steps=30, pattern='galaxy' ) 
-corona_life ( side=100, steps=200, pattern='glidergun' ) 
-corona_life ( side=45, steps=130, pattern='conway', fps=8, pause=40)
+\dontrun{
+corona_life( filename='animation.gif', side=50, steps=500, density=0.2 ) 
+corona_life( side=100, steps=1000, pattern='rpentomino', wrap=FALSE ) 
+corona_life( side=30, steps=120, pattern='spaceship' ) 
+corona_life( side=100, steps=400, pattern='switchengine' ) 
+corona_life( side=20, steps=30, pattern='clock' ) 
+corona_life( side=20, steps=30, pattern='galaxy' ) 
+corona_life( side=100, steps=200, pattern='glidergun' ) 
+corona_life( side=45, steps=130, pattern='conway', fps=8, pause=40)
+}
 }
 \keyword{Conway}
 \keyword{animation}
