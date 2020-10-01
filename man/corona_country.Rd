@@ -25,9 +25,6 @@ its relationship to the incidence curve. See grown-up documentation (LyX)
 \examples{
 corona_country('United States'); 
 corona_country('Taiwan'); 
-\dontrun{
-corona_country('United States', pdf=TRUE); 
-}
 }
 \keyword{corona}
 \keyword{country}

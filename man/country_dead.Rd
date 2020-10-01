@@ -16,6 +16,7 @@ country_dead(country = "England+Wales", pdf = FALSE, save = FALSE)
 \description{
 Assumes the existence of the data frame stmf containing relevant iso_codes for countries.
 The unusual codes GBRTENW and GBR_SCO represent England+Wales and Scotland.
+You can obtain a list of countries by country_dead('?'), forcing a diagnostic error!
 }
 \details{
 The columns in the frame stmf are just 'iso_code', 'Year', 'Week', and 'Deaths'.
@@ -30,9 +31,6 @@ secular adjustment.
 }
 \examples{
 country_dead( 'New Zealand' ) 
-\dontrun{
-country_dead( '?' )
-}
 }
 \keyword{corona}
 \keyword{deaths}

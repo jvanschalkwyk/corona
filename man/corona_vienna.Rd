@@ -17,9 +17,7 @@ subsequently draws a run chart with a transition at the point where
 he instituted hand-washing.
 }
 \examples{
-\dontrun{
-corona_vienna ( pdf=TRUE ) 
-}
+corona_vienna ( ) 
 }
 \keyword{Semmelweis}
 \keyword{Vienna}

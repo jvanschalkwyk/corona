@@ -4,29 +4,25 @@
 \alias{corona}
 \title{Basic setup of corona (Nanny Rona) R program}
 \usage{
-corona(dir = "C:/nc")
-}
-\arguments{
-\item{dir}{'C:/nc' is default MS Windows directory; on Linux or Mac, is '~/nc'}
+corona()
 }
 \description{
-Try ?corona for help. For most functions, saying pdf=TRUE will write PDF to images/.
-On loading, corona also loads gganimate, ggplot2, gridExtra, plyr, qicharts2, reshape2
-Use corona(dir='foo') to set the working directory to 'foo'
-or just use setwd() as usual.
+Try ?corona for help. For most functions, saying pdf=TRUE will write a PDF to images/.
+If you wish to print to PDF, you need to setwd() to a directory that contains an
+images/ directory that can be written to, or this will fail.
+Individual examples are also available. Try e.g. ?corona_rabbits or ?corona_country
+The results of corona_life() will depend on how your system handles animated GIF files.
 }
 \examples{
-\dontrun{
+\donttest{
     corona_rabbits ( )
     corona_monty ( )
     corona_country ('France') 
-    corona_lockdown ( cols=14 ) 
     corona_vienna ( ) 
     corona_totals ( ) 
     country_dead ( ) 
     corona_converge ( )
     corona_metabolism ( ) 
-    corona_life ( ) 
     corona_citymap ( ) 
     corona_dowjones ( )
 }

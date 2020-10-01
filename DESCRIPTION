@@ -1,6 +1,6 @@
 Package: corona
 Title: Coronavirus ('Rona') Data Exploration
-Version: 0.2.0
+Version: 0.3.0
 Depends: R (>= 3.5.0), plyr 
 Imports: gganimate, ggplot2, gridExtra, qicharts2, reshape2
 Authors@R: 

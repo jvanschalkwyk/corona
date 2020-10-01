@@ -34,11 +34,11 @@ corona_lockdown(
 }
 \description{
 By default limited to countries with population > 4M, and over 200 cases.
+This may take over 5s to run, depending on your hardware.
 }
 \examples{
-corona_lockdown( cols=14 ) 
 \dontrun{
-corona_lockdown( pdf=TRUE ) 
+corona_lockdown( cols=14 )  
 }
 }
 \keyword{corona}

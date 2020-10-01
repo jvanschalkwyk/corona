@@ -38,6 +38,8 @@ boring static patterns: block snake eater}
 }
 \description{
 The canvas (arena) wraps around vertically and horizontally!
+Execution will take some time. Results will be viewed differently
+depending on your system's default viewer for animated GIF files.
 }
 \examples{
 \dontrun{

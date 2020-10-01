@@ -30,12 +30,10 @@ corona_converge(
 \item{log}{take logarithm of values (for 'multiply')}
 }
 \description{
-We build a normal or log-normal distribution from simple components.
+Build a normal or log-normal distribution from simple components.
+Large numbers e.g. n=1e6 will take some time to run.
 }
 \examples{
-\dontrun{
-corona_converge( n=1000000, method='add' ) 
-}
 corona_converge( n=10000, method='multiply', xscale=0.4, bins=128, runs=5 )
 }
 \keyword{Benford}
